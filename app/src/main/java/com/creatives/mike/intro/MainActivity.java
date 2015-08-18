@@ -14,6 +14,11 @@ public class MyIntro extends AppIntro {
 
 
       
+        // OPTIONAL METHODS
+        // Override bar/separator color
+        setBarColor(Color.parseColor("#3F51B5"));
+        setSeparatorColor(Color.parseColor("#2196F3"));
+
         
         setVibrate(true);
         setVibrateIntensity(30);
