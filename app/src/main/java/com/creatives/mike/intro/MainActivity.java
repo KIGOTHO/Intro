@@ -13,7 +13,14 @@ public class MyIntro extends AppIntro {
         // AppIntro will automatically generate the dots indicator and buttons.
 
 
-      
+        // Instead of fragments, you can also use our default slide
+        // Just set a title, description, background and image. AppIntro will do the rest
+        addSlide(AppIntroFragment.newInstance("Title here", "Description here...\nYeah, I've added this fragment programmatically",
+        R.drawable.ic_launcher, R.color.material_blue_grey_800));
+        addSlide(AppIntroFragment.newInstance("Title here", "Description here...\nYeah, I've added this fragment programmatically",
+                R.drawable.ic_launcher, R.color.material_blue_grey_800));
+        addSlide(AppIntroFragment.newInstance("Title here", "Description here...\nYeah, I've added this fragment programmatically",
+                R.drawable.ic_launcher, R.color.material_blue_grey_800));
         // OPTIONAL METHODS
         // Override bar/separator color
         setBarColor(Color.parseColor("#3F51B5"));
